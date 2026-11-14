@@ -1,0 +1,23 @@
+# 虚拟环境
+.venv/
+
+# 构建产物
+build/
+dist/
+*.spec
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 运行时数据（设备名、UUID、日志）
+settings.json
+crash.log
+*.log
+
+# 本地 IDE 配置
+.trae/
+.vscode/
+
+# UxPlay 原始压缩包（已解压到 vendor/uxplay 并入库，且超过 GitHub 单文件 100MB 限制）
+vendor/uxplay-windows.zip
